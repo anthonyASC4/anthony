@@ -1,0 +1,33 @@
+body{
+    background-image:url("barcelonaColors.jpg");
+    background-size:cover;
+    background-position: center;
+    text-align: center;
+}
+/*#top {
+    color: red;
+}
+.singleBurger {
+    background-color: lightblue;
+    border: 2px solid blue;
+    width:60%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    padding: 10px;
+}
+
+.mainContent {
+    border: 2px solid red;
+}
+
+img{
+    width: 25%;
+    vertical-align: middle;
+}
+
+p{
+    display:inline-block;
+    width:75%
+    vertical-align: middle;
+}*/

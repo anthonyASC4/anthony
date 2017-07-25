@@ -14,6 +14,12 @@ function draw(){
     text("Score:", 10, 400);
     fill(0,102,153);
 }
+function keyTyped() {
+    console.log(typed);
+    typed = typed + key;
+    if (typed == sentence);
+    alert("You Win");
+}
 // HERE
 // var value = 0;
 // function draw() {
@@ -97,13 +103,13 @@ function draw(){
 //     background(50);
 //     fill("white");
 //     textSize(16);
-//     text("pleaser type in the sentence below", 50, 50);
+//     text("please type in the sentence below", 50, 50);
 //     text(sentence, 50, 100);
 // }
 
-// function keyTyped() {
-//     console.log(typed);
-//     typed = typed + key;
-//     if (typed == sentence);
-//     alert("You Win");
-// }
+function keyTyped() {
+    console.log(typed);
+    typed = typed + key;
+    if (typed == sentence);
+    alert("You Win");
+}

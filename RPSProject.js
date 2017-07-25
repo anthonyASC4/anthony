@@ -1,7 +1,7 @@
-var playerChoice = "Rock";
+var playerChoice = "Paper";
 
 var compChoices = ["Rock", "Paper", "Scissors"];
-var compChoice = compChoices[Math.floor(Math.random()*3)];
+var compChoice = compChoices[Math.floor(Math.random() * 3)];
 //tie
 if (compChoice = playerChoice){
 console.log("It's a tie");
